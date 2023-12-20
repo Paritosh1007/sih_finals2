@@ -6,6 +6,7 @@ import { faFire, faBell } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 library.add(faFire, faBell);
@@ -76,6 +77,7 @@ const Home = () => {
 </div>
 
     </div>
+    <Footer/>
     </>
   );
 };

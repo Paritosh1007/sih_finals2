@@ -50,6 +50,9 @@ const Login = () => {
               Sign In
             </button>
             </Link>
+            <Link to='/Signup'>
+            <h1 className='text-center my-4 hover:font-bold hover:cursor-pointer '>Or new to the app Sign Up ?</h1>
+            </Link>
           </div>
         </form>
 
